@@ -9,6 +9,7 @@ import { HiDownload } from "react-icons/hi"
 import { FaGithubSquare } from "react-icons/fa"
 import { useSectionInView } from "@/lib/hooks"
 import { useActiveSectionContext } from "@/context/active-section-context"
+import selfie from "@/public/selfie.jpg"
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5)
@@ -55,7 +56,7 @@ export default function Intro() {
           transition={{ type: "spring", stiffness: 125, delay: 0.1, duration: 0.7 }}
         >
           <Image
-            src="/../public/selfie.jpg"
+            src={selfie}
             alt="Bradley portrait"
             width="200"
             height="200"
