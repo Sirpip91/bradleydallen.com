@@ -60,10 +60,6 @@ export default function Contact() {
             <Link
               href="/Bradley_Allen_Resume.pdf"
               className="inline-flex items-center text-gray-700 dark:text-white/80 hover:text-blue-500 dark:hover:text-blue-400 transition"
-              onClick={() => {
-                setActiveSection("Contact")
-                setTimeOfLastClick(Date.now())
-              }}
               aria-label="Download Resume"
             >
               <HiDownload className="mr-2 text-xl" /> Download Resume
