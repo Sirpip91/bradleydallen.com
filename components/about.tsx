@@ -26,8 +26,7 @@ export default function About() {
         transition={{ delay: 0.3 }}
       >
         <p className="mb-5 text-lg">
-        I enjoy programming and anything that involves a good think. I dual boot Windows and Linux,
-        and for some reason always find myself behind a computer for extended periods of time. <br></br> <br></br>
+        I enjoy programming and anything that involves a good think. <br></br>For some reason always find myself behind a computer for extended periods of time. <br></br> <br></br>
         Most of my
         programming work remains behind company walls, but all of my personal work is open source.
         </p>

@@ -59,6 +59,14 @@ export const experiencesData = [
     date: "December 2023 - September 2024",
   },
   {
+    title: "ERP Integration Developer | Lamar State College Orange",
+    location: "Orange, TX",
+    description:
+      "Developed and integrated RESTful APIs for cloud based Ellucian Banner System. Helped migrate in-house system to Ellucian SaaS cloud. Worked with SQL, Powershell, GraphQL, Javascript, Python, to automate and enhance institution needs.", 
+    icon: React.createElement(CgWorkAlt),
+    date: "December 2024 - Present",
+  },
+  {
     title: "Seeking Software Engineering Opportunities",
     location: "Open to Software Development Roles",
     description:
